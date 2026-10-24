@@ -1,0 +1,19 @@
+{
+    "name": "forter/zabbix_test",
+    "description": "Zabbix test tasks",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forter\\ZabbixTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jevgenijs Sulins",
+            "email": "forter.mobile@gmail.com"
+        }
+    ]
+}
